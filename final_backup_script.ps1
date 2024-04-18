@@ -11,7 +11,7 @@ function Execute-SqlQuery-Target
 [string]$Server, 
 [string]$Database1, 
 [string]$Username, 
-[string]$Password, 
+[string]$Password,
 #[Bool]$UseWindowsAuthentication = $False, 
 [string]$Query2, 
 [int]$CommandTimeout=0
